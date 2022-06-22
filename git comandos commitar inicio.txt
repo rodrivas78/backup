@@ -1,0 +1,26 @@
+git init
+git remote add origin git@gitlab.com:rodrigo.gonzales/springboot-crud-operation.git
+git add --all
+git commit -m "initil Commit"
+git push origin master
+
+
+criar branch:
+git checkout -b nomedabranch
+
+voltar pra branch principal:
+git checkout master
+
+-----------------------------------
+git status
+git show id
+git branch
+
+git fetch
+-----------------------------------
+
+git config user.name "@rodrigo gonzales"
+git config user.email "rrivas2009@gmail.com"
+
+-----------Testar conexão com repositório-----------
+ssh -T git@gitlab.com
