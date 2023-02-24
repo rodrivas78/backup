@@ -75,6 +75,25 @@
 
         <!-- Place your card content here -->
 
-    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+    android:id="@+id/card4"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    app:cardBackgroundColor="#FF9800"
+    app:layout_constraintTop_toBottomOf="@+id/card2"
+    app:layout_constraintStart_toEndOf="@+id/card3"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintDimensionRatio="1:1"
+    app:layout_constraintHorizontal_chainStyle="packed"
+    app:layout_constraintVertical_chainStyle="packed"
+    app:layout_constraintHorizontal_weight="1"
+    app:layout_constraintVertical_weight="1"
+    app:layout_margin="18dp">
 
-    <androidx.card
+    <!-- Place your card content here -->
+
+</androidx.cardview.widget.CardView>
+        
+<androidx.constraintlayout.widget.ConstraintLayout
+
